@@ -27,4 +27,3 @@ if st.button('Total Movies'):
     st.header('Movies are :')
     for i in movies[:show]:
         st.subheader(i)
-predict('TV Show',2003)
